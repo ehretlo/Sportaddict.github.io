@@ -1,0 +1,458 @@
+html {
+    cursor: url('../cursor/cursor.cur'), auto;
+}
+
+
+body {
+    margin-bottom: 0px;
+    background: url('../images/images/mur.jpg');
+    background-size:auto;
+}
+
+div.activitestyle {
+    background: url('../images/images/mur.jpg');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    box-shadow: black 0px 5px 20px 0px;
+    border-bottom: red solid 2px;
+    background-color: white;
+    position: relative;
+    margin: inherit;
+    justify-content: center;
+}
+
+header a img {
+    height: 110px;
+    transition: none;
+    
+    
+}
+
+img:hover {
+    transition: none;
+}
+
+header input {
+    display: flex;
+    cursor: help;
+    margin: auto;
+}
+
+
+ul img {
+    width: 29px;
+    height: 29px;
+    
+}
+
+ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color:#515AD0;
+    text-decoration: underline;
+    transition-duration: 150ms;
+    transition: 200ms;
+    cursor: url('../cursor/cursor.cur'), auto;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+}
+
+h1 input {
+    
+}
+
+nav {
+    display: flex;
+    width: 1200px;
+}
+
+nav ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.ul#2 {
+    width: 350px;
+    padding-left: 170px;
+}
+
+
+nav ul li {
+    display: flex;
+    font-family: 'Tommy';
+}
+
+
+nav ul li:hover {
+    color: #515AD0;
+}
+
+@font-face {
+    font-family: 'Tommy';
+    src: url('../font/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf');
+}
+
+
+/*_________________________________*/
+
+div.rechercher {
+    text-align: center;
+    font-family: 'Tommy';
+    background-image: url('../images/images/fond.jpg');
+    
+    font-size: 40px;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    box-shadow: black 0px 40px 40px 0px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: red solid 4px;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #A52520;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.green {
+    color: green;
+    
+    border-radius: 10px;
+}
+
+div.rechercher input{
+    border-radius: 20px 20px 20px 20px  ;
+    height: 25px;
+}
+
+
+/*_________________________________*/
+
+div.activitestyle {
+    text-align: center;
+    height: 40px;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Tommy';
+    padding-bottom: 40px;
+background-color: white;
+text-decoration: underline #FF3028;
+}
+
+div.premierecolonne {
+    font-family: 'Tommy';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: 500ms;
+    transition-property: transform;
+    transition-duration: 500ms;
+    
+}
+
+div.premierecolonne img:hover {
+    transform: scale(1.05);
+}
+
+div.deuxiemecolonne {
+    font-family: 'Tommy';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    
+    padding-left: 20px;
+
+    
+}
+
+div.deuxiemecolonne img:hover {
+        transform: scale(1.05);
+    }
+    
+/*_____________ PADDING ____________*/
+
+div.boxe, div.crossfit, div.basketball {
+   
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    background-color: azure;
+    transition-property: transform;
+    transition-duration: 500ms;
+    border-radius: 20px;
+    box-shadow: black 0px 5px 20px 0px;
+}
+
+div.boxe:hover, div.crossfit:hover, div.basketball:hover, div.finess:hover, div.karate:hover, div.muscu:hover{
+    transform: scale(1.01);
+    transition: 500ms;
+    box-shadow: black 0px 5px 20px 0px;
+    background-color: #D2D7DD;
+    border-radius: 20px;
+
+}
+
+div.finess, div.karate, div.muscu {
+    box-shadow: black 0px 5px 20px 0px;
+    width: 30%;
+    height: 320px;
+    margin: 10px;
+    transition-property: transform;
+    transition-duration: 500ms;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+div.running, div.yoga, div.natation {
+    box-shadow: black 0px 5px 20px 0px;
+    width: 30%;
+    height: 320px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 20px;
+    transition: 500ms;
+    transition-duration: 500ms;
+    transform: scale(1);
+}
+
+div.running:hover, div.yoga:hover, div.natation:hover {
+    transition: 500ms;
+    transition-duration: 500ms;
+    transform: scale(1.02);
+    background-color: #D2D7DD;
+}
+
+div.canoe, div.foot, div.motto {
+    box-shadow: black 0px 5px 20px 0px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+div.enduro, div.Exhibition, div.Triathlon {
+    width: 30%;
+    margin: 10px;
+    box-shadow: black 0px 5px 20px 0px;
+    background-color: azure;
+    border-radius: 20px;
+    height: 351px;
+}
+
+div.enduro:hover, div.Exhibition:hover, div.Triathlon:hover, div.canoe:hover, div.motto:hover, div.foot:hover{
+    transition: 500ms;
+    transition-duration: 500ms;
+    transform: scale(1.01);
+    background-color: #D2D7DD;
+}
+
+div.titre {
+    font-size: 25px;
+}
+
+div.titre:hover {
+    color:#A52520;
+    transition: 150ms;
+}
+
+
+
+
+/*_____________________________________________*/
+
+div.afficher {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Tommy';
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}
+
+div.afficher:hover {
+    color: #515AD0;
+    text-decoration:underline #515AD0;
+}
+
+div.afficher a {
+    color: #000;
+    text-decoration: none;
+    transform: scale(1.02);
+    transition: 500ms;
+}
+
+div.afficher a:hover {
+    color:#A52520;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+div#toto {
+    text-align: center;
+}
+
+div#toto img {
+    
+    width: 300px;
+    height: 300px;
+    transform: none;
+}
+
+/*___________________________________________*/
+
+footer {
+    display: flex;
+    bottom: -20;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #515AD0;
+    font-family: 'Tommy';
+    border-top: #FF3028;
+    height: 100px;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline #FF3028;
+    color: black;
+}
+
+.footertitre {
+    
+    padding-top: 10px;
+
+}
+
+
+/*______________________________________________*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* toute la hauteur */
+  ::-webkit-scrollbar-track {
+    background: #D2D7DD;
+  }
+  
+  /* maintient */
+  ::-webkit-scrollbar-thumb {
+    background: #FF3028;
+  }
+  
+  /* curseur du barre */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A52520;
+  }
+
+/* The Modal (background) -------------------------------------------------------------------------- */
+
+.modalDialog {
+    position: fixed;
+    font-family: 'Tommy';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+  .modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .close {
+    background: #606061;
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+  }
+  .close:hover {
+    background: #A52520;
+  }
+
+  h2 {
+      text-align: center;
+      text-decoration: underline #A52520;
+  }
+
+  p {
+      text-align: center;
+  }
+
+  div.questionnaire {
+      text-align: center;
+  }
+
+  h3 {
+      font-size: 12px;
+      text-align: center;
+      color: black;
+  }
+
+  h3:hover {
+      color: blue;
+      text-decoration: underline blue;
+  }
+
+  div#toto p {
+      font-family: 'Tommy';
+  }

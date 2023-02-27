@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/styleresponsive.css">
+        <link rel="icon" href="../OnlineSportsSite/favicon/favicon1.png">
+        <script src="../OnlineSportsSite/style/main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+        <title>Sport Addict | Le sport à tous les niveaux</title>
+    </head>
+    <body>
+        <header>
+            <a href="file:///C:/Users/phyle/Desktop/Cours%20l%20autres/PROJET%20SCHLEGEL/Projet/OnlineSportsSite/index.html"><img src="images/logo/SportAddict.png" alt="Logo de Sport Addict"></a>
+            <nav>
+                <ul>
+                    <li><a href="#activite"> Idée d'activité</a></li>
+                    <li><a href="#popu">Les plus populaires</a></li>
+                    <li><a href="#events">Les événements à venir</a></li>
+                    <li><a href="#openModal">S'inscrire</a></li>
+                        <div id="openModal" class="modalDialog">
+                          <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <h2>S'inscrire</h2>
+                            Rejoins la communauté Sport Addict dès maintenant !
+                            <p><form action="" method="get" class="form-example">
+                                <div class="questionnaire">
+                                  <label for="name">Nom d'utilisateur : </label>
+                                  <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="questionnaire">
+                                  <label for="password">Mot de passe : </label>
+                                  <input type="password" name="password" id="password" required>
+                                </div>
+                                <div class="questionnaire">
+                                  <input type="submit" value="Se connecter">
+                                </div>
+                              </form>
+                        <h3>Mot de passe oublié ?</h3>
+                          </div>
+                          <a href="#close" title="Close" class="close">x</a>
+                        </div>
+                </ul>
+                <ul id="2" style=" width: 350px;width: 350px;display: flex;justify-content: flex-end;margin-top: 10px;">
+                    <img src="../OnlineSportsSite/images/images/search2.png" alt="recherche">
+                    <input type="search" placeholder="Vous cherchez quelque chose en particulier ?" size="40" style="border-radius: 10px 10px 10px 10px;">
+                </ul>
+            </nav>
+        </header> 
+<!-- div rechercher et premiere page-->
+        <div class="rechercher">
+            ➡️Trouvez <span class="underline">le sport qui vous correspond</span><br>
+            En plein centre ville ou en <span class="green">pleine nature 🌳</span>
+            <br>
+           <input type="text" size="120">
+            <a href="#"><br>Rechercher</a>
+            <BR>
+            Plus de <span class="underline">3500 sportifs</span> nous ont déjà rejoints❗️
+        </div>
+
+<!-- section idée d'activité s-->
+        <div id="activite">
+            <div class="activitestyle">
+            Idée d'activité
+            </div>
+            <div class="premierecolonne">
+                <div class="basketball">
+                    <img src="./images/activites/basketball.jpg" alt="Basketball">
+                    <div class="titre">🏀Le Basket &emsp;</div>
+                Gérer le rebond
+                </div>
+                <div class="boxe">
+                    <img src="./images/activites/boxe.jpg" alt="Boxe">
+                    <div class="titre">🥊La boxe</div>
+                Mouvement de jambes et crochet du droit
+                </div>
+                <div class="crossfit">
+            <img src="./images/activites/crossfit.jpg" alt="Crossfit">
+            <div class="titre">🤸🏻‍♂️Le crossfit</div>
+            Pour devenir un athlète complet
+            </div>
+            <div class="finess">
+            <img src="./images/activites/fitness.jpg" alt="Fitness">
+            <div class="titre">💪🏻Le fitness</div>
+            Harmoniser son corps
+            </div>
+            <div class="karate">
+            <img src="./images/activites/karaté.jpg" alt="Karaté">
+            <div class="titre">🥋Le karaté</div>
+            Les katas pour éviter la cata
+            </div>
+            <div class="muscu">
+            <img src="./images/activites/musculation.jpg" alt="Musculation">
+            <div class="titre">🏋️La musculation</div>
+            Aussi puissant qu'harmonieux
+            </div>
+        </div>
+    </div>
+<!-- BOUTON AFFICHER PLUS -->
+        <p><a href="#nogo" title="Afficher le div" onclick="afficher_div_masque()"><div class="afficher">Afficher plus</p></a></div>
+        <div id="toto" style="display:none;">
+        <p>La suite prochainement ! Mais on vous laisse un petit indice sur la prochaine activité...</p><img title="Natalie !" src="../OnlineSportsSite/images/images/natalie.jpg">
+        </div>
+<!-- BOUTON AFFICHER PLUS -->
+        <div id="popu">
+        <div class="activitestyle">
+            Les plus populaires     
+        </div></div>
+        <div class="deuxiemecolonne">  
+            <div class="running">     
+            <img src="./images/populaire/running.jpg" alt="Running">
+            <div class="titre">🏃🏻‍♂️La course à pied</div>
+            Une paire de basket et à nous les grands espaces
+            </div>
+            <div class="yoga">
+            <img src="./images/populaire/yoga.jpg" alt="Yoga">
+            <div class="titre">🧘Le yoga</div>
+            Calme, méditation et musculation interne 
+            </div>
+            <div class="natation">
+            <img src="./images/populaire/natation.jpg" alt="Natation">
+            <div class="titre">🏊🏻‍♂️La natation</div>
+            Force et justesse du mouvement
+            </div>
+            <br>
+        </div>
+        <div id="events">
+        <div class="activitestyle">
+            Les événements à venir
+        </div></div>
+        <div class="premierecolonne">
+            <div class="canoe">
+            <img src="./images/evenement/canoe.jpg" alt="Canoe">
+            <div class="titre">🚣🏼‍♀️Descente des chutes éternelles</div>
+            </div>
+            <div class="foot">
+            <img src="./images/evenement/football.jpg" alt="Football">
+            <div class="titre">⚽️Recrutement des nouveaux joueurs</div>
+            </div>
+            <div class="motto">
+            <img src="./images/evenement/motocross.jpg" alt="Mottocross">
+            <div class="titre">🏍Enduro de la veille de l'automne</div>
+            </div>
+        </div>
+        <div class="premierecolonne">
+            <div class="enduro">
+            <img src="./images/evenement/plancheAvoile.jpg" alt="Planche">
+            <div class="titre">🌅Exhibition intercontinentale des masters Pro</div>
+            </div>
+            <div class="Exhibition">
+            <img src="./images/evenement/plongée.jpg" alt="Plongée">
+            <div class="titre">🌊Découverte des gorges insondables avec une équipe pro</div>
+            </div>
+            <div class="Triathlon">
+            <img src="./images/evenement/triathlon.jpg" alt="Triathlon">
+            <div class="titre">🙌🏻Ironman de Noël</div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+        <div class="footertitre">
+            A propos
+        </div>
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+            <div class="footertitre">
+            Nos valeurs
+            </div>
+            <ul>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Parlez nous de votre sport</a></li>
+            </ul>
+            <div class="footertitre">
+            Assistance
+            </div>
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

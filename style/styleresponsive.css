@@ -1,0 +1,92 @@
+
+@media ALL and (max-width: 1024px) {
+    body {
+        display: block;
+        width: 1200px;
+        margin: auto;
+        WIDTH: -webkit-fill-available;
+    }
+
+    header {
+        display: block;
+        font-size: 20px;
+        margin: auto;
+        position: sticky;
+    }
+
+    header a img {
+        height: 100px;
+    object-fit: contain;
+    transition: none;
+    }
+
+    nav {
+        display: flex;
+        width: 480px;
+
+        flex-direction: column;
+    }
+
+    div.premierecolonne {
+        font-size: xx-large;
+    text-align: center;
+    
+
+    }
+
+    h1 {
+        padding-bottom: 20px;
+
+    }
+
+    div.deuxiemecolonne {
+        font-size: xx-large;
+        text-align: center;
+        
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav.ul#2 {
+
+        padding-top: 20px;
+    }
+
+    div.boxe, div.crossfit, div.basketball, div.finess, div.karate, div.muscu, div.running, div.yoga, div.natation, div.canoe, div.foot, div.motto {
+
+    
+        height: 610px;
+
+    }
+
+    footer {
+    margin-top: 100px;
+
+    }
+    
+    
+    nav ul {
+        display: block;
+        margin: auto;
+    }
+
+
+
+
+}
+
+/**@media screen and (max-width: 1200px)
+{
+    div.crossfit, div.boxe, div.basketball, div.finess, div.karate, div.muscu {
+        width : 45%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    div.crossfit, div.boxe, div.basketball, div.finess, div.karate, div.muscu {
+        width : 90%;
+    }
+}**/
